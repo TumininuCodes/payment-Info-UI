@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Payment Info</string>
+    <string name="payment_info">Payment Info.</string>
+    <string name="make_a_payment">Make a payment</string>
+    <string name="cardholder_name">Cardholder Name</string>
+    <string name="card_number">Card Number</string>
+    <string name="expire_on">Expire on</string>
+    <string name="cvc_code">CVC code</string>
+    <string name="mm">mm</string>
+    <string name="yyyy">yyyy</string>
+    <string name="_839">839</string>
+    <string name="_4599_7568_6354_4542">4599\  7568\  6354\  4542</string>
+</resources>
