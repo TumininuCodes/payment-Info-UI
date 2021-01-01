@@ -1,4 +1,4 @@
-package com.tumininu.paymentinfo
+package com.tumininu.paymentinfo.other
 
 import android.text.Editable
 import android.text.InputFilter
