@@ -1,12 +1,11 @@
 package com.tumininu.paymentinfo.ui
 
-import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
-import android.text.TextWatcher
+import androidx.appcompat.app.AppCompatActivity
 import androidx.databinding.DataBindingUtil
-import com.tumininu.paymentinfo.other.CreditCardFormatting
 import com.tumininu.paymentinfo.R
 import com.tumininu.paymentinfo.databinding.ActivityMainBinding
+import com.tumininu.paymentinfo.other.CreditCardFormatting
 
 class MainActivity : AppCompatActivity() {
 
@@ -17,13 +16,12 @@ class MainActivity : AppCompatActivity() {
 
         // Inflate layout using dataBinding
 
-        mainBinding = DataBindingUtil.setContentView(this,
+        mainBinding = DataBindingUtil.setContentView(
+            this,
             R.layout.activity_main
         )
 
-//        CreditCardFormatting.apply {
-//            mainBinding.cardNumberEditText.text.toString()
-//        }
+        // Implement text formatting in card Number TextView
 
         mainBinding.cardNumberEditText.addTextChangedListener(CreditCardFormatting())
     }

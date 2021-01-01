@@ -6,6 +6,9 @@ import android.text.TextWatcher
 
 class CreditCardFormatting : TextWatcher {
 
+    // This class implements the TextWatcher Interface
+    // Separates text into chunks of 4
+
     private var current = ""
 
     override fun afterTextChanged(s: Editable?) {
