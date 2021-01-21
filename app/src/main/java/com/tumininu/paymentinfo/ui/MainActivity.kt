@@ -5,7 +5,7 @@ import androidx.appcompat.app.AppCompatActivity
 import androidx.databinding.DataBindingUtil
 import com.tumininu.paymentinfo.R
 import com.tumininu.paymentinfo.databinding.ActivityMainBinding
-import com.tumininu.paymentinfo.other.CreditCardFormatting
+import com.tumininu.paymentinfo.util.CreditCardFormatting
 
 class MainActivity : AppCompatActivity() {
 
